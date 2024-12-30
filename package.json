@@ -1,5 +1,5 @@
 {
-  "name": "vue-crash-2024",
+  "name": "SI-poste",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -7,13 +7,15 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "json-server --watch src/jobs.json --port 8000"
   },
   "dependencies": {
     "axios": "^1.7.2",
     "json-server": "^1.0.0-beta.1",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "pinia": "^2.3.0",
     "primeicons": "^7.0.0",
-    "vue": "^3.4.29",
+    "vue": "^3.5.13",
     "vue-router": "^4.4.0",
     "vue-spinner": "^1.0.4",
     "vue-toastification": "^2.0.0-rc.5"
